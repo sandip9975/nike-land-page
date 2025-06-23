@@ -8,12 +8,17 @@ html,
 body{
     font-family: "Inter", sans-serif;
     font-weight: 400;
+    background-image: url(bg3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .main{
     height: 100vh;
     width: 100%;
-    background-color: #d0d4D5;
+    
 }
 
 .nav{
@@ -33,7 +38,7 @@ body{
 
 .nav img{
     filter: drop-shadow(1px 1px 30px #000);
-    height: 80px;
+    height: 85px;
     width: auto;
     margin-right: 60px;
     cursor: pointer;
@@ -46,13 +51,10 @@ body{
     list-style: none;
 
 }
-nav-part-1 ul span{
-    
-}
 
 .nav-part-1 ul li{
     margin-right: 40px;
-    font-size: 19px;
+    font-size: 25px;
     font-weight: 500;
     text-transform: uppercase;
     cursor: pointer;
@@ -60,7 +62,7 @@ nav-part-1 ul span{
 
 .nav-part-2 i{
     margin-right: 40px;
-    font-size: 21px;
+    font-size: 30px;
     font-weight: 500;
     cursor: pointer;
     padding: 0%;
@@ -104,14 +106,16 @@ nav-part-1 ul span{
 .btn{
     border: 5px solid transparent;
     border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
-    border-image-slice: 1;
+    border-image-slice: 0.5;
     color: #121111;
-    font-size: 15px;
+    font-size: 20px;
     padding: 12px 40px;
-    font-weight: 600;
-    border-radius: 50px;
-    border-top-left-radius: 0;
+    font-weight: 600;    
     cursor: pointer;
+}
+.div:hover{
+    transition: 0.6s ease-in-out;
+    border: 50%;
 }
 
 .content-right{
