@@ -8,7 +8,7 @@ html,
 body{
     flex-grow: 1;
     font-family: "Inter", sans-serif;
-    background-image: url(bg2.jpg);
+    background-color:"#454545";
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
